@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+     <div class="content">
+                    <h2>
+                        Create an account now
+                    </h2>
+                    <form action="" method="post" onsubmit="return false">
+                       <div class="form-group">
+             <i class="fa fa-envelope"></i>
+                            <input type="text" placeholder="email id"name="emailid" required>
+              </div>
+               <div class="form-group">
+               <i class="fa fa-user"></i>
+                            <input type="text" placeholder="Username"name="Username" required>
+              </div>
+              <div id="password-strength" class="form">
+    <input id="password-input" type="password" placeholder="password" onkeyup="measureStrength()"></input>
+    <br /><br />
+    <span>Your password is:</span>
+    <span id="strength-level"></span>
+    </div>
+    <script src="script.js"></script>
+            <div class="atr">
+              <button>Sign Up</buton></div>
+
+  </body>
+</html>
+
